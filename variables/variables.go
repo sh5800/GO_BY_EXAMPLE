@@ -15,7 +15,7 @@ func main(){
 	var e int  //var variablename1,variablename2,variablename3 .... datatype
 	fmt.Println(e)
 
-	n := 3 + 4i  //To declare and use a variable directly we can use the := operator. The variable on the left of := operator is then auto assigned the data type based on what value is present on the right side of := operator
+	n := 3 + 4i  //To declare and use a variable directly we can use the := operator. The variable on the left of := operator is then auto assigned the data type based on what value is present on the right side of := operator. This is only allowed inside functions
 	fmt.Printf("Type of n is: %T\n",n)
 
 	u := 'c' //int32 or rune data type
